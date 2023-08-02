@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>gpan College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College">
+ <meta name="author" content="vaishnavi">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="download.html">Download</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15082.46076389588!2d74.7388701!3d19.0806493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58984fdfc6b9c330!2sGovernment%20Polytechnic%20Ahmednagar!5e0!3m2!1sen!2sin!4v1610117717504!5m2!1sen!2sin" width="300" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+<h3>Contact</h3>
+<h4>Government Polytechnic Ahmednagar<br>
+  Burudgaon Rd Near</h4>
+  Near ITI, Bhavani Nagar, Ahmednagar, Maharashtra 414001
+<pre>
+Phone : +901 61 538115<br>
+Email :  gpan01@gmail.com<br>
+<br>
+</pre>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong>If you are student please enter your student number:</strong>
+<center>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+</center>
+
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+
+</html>
